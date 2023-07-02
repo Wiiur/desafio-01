@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;200;300;400;500;600;700&display=swap');
+.attribution { font-size: 11px; text-align: center; margin: 50px; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+body {
+    font: normal 18px;
+    font-family: 'Hanken Grotesk', sans-serif;  
+  }
+  #corpo {
+    
+    margin-top: 70px;
+    display: flex;
+    border-radius: 8px;
+    justify-content: center;
+  }
+  #res{
+    z-index: 1;
+    text-align: center;
+    color: aliceblue;
+    max-width: 200px;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    box-shadow: 0px 10px 25px hsl(241, 100%, 89%);
+    border-radius: 8px;
+    display: block;
+  }
+  /* circulo */
+  #res section {
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    margin: auto 40px;
+    padding: 20px;
+  }
+ .op {
+    opacity: 0.5;
+  }
+  .rgt {
+    float: right;
+    padding: 0px;
+    margin: 0px;
+  }
+  #res p{
+    font-size: 12px;
+    margin: 0px;
+  }
+  #res span p{
+    font-size: 45px;
+    font-weight: bold;
+  }
+  #res h1{
+    margin: 20px;
+    font-size: 12px;
+    opacity: 0.5;
+  }
+  #res h2{
+    margin: 5px;
+    font-size: 16px;
+  }
+  #info{
+    justify-content: center;
+    padding: 0px 25px;
+  }
+  
+  /* Lateral */
+  #lateral{
+    padding: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 10px 25px hsl(241, 100%, 89%);
+    background-color: hsl(0, 0%, 100%);
+  }
+  #lateral h1{
+    font-size: 18px;
+    margin: 0px;
+    padding-left: 8px;
+  }
+  #lateral a#conf{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 9px;
+    font-size: 13px;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 15px;
+    font-weight: bold;
+    margin: 0px 30px;
+  }
+  #lateral a#conf:hover{
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    transition:  1s;
+  }
+  #lateral p img {
+    padding-right: 10px;
+    align-items: center;
+  }
+  #lateral p {
+    padding: auto;
+  }
+  .d{
+    font-size: 14px;
+    background-color: rgba(255, 246, 245, 1);
+    border-radius: 5px; 
+    padding: 8px;
+    margin: 13px;
+    
+  }
+  .spac{
+    font-weight: 700;
+    padding-right: 100px;
+  }
+  .bold {
+    font-weight: bold;
+  }
+  #info01:hover {
+    background-color: hsl(221, 100%, 96%)
+  }
+  #info02:hover {
+    background-color: hsl(221, 100%, 96%)
+  }
+  #info03:hover {
+    background-color: hsl(221, 100%, 96%)
+  }
+  #info04:hover {
+    background-color: hsl(221, 100%, 96%)
+  }
+
+  @media(max-width: 480px){
+    #corpo{
+        display: block;
+        padding: 50px;
+    }
+    .spac{
+        padding-right: 10px;
+    }
+    #res{
+        padding: 50px;
+    }
+  }
+  @media(max-width: 376px){
+    #res section{
+        margin: 20px;
+        padding: 30px;
+        justify-content: center;
+    }
+    #res span p{
+        font-size: 35px;
+      }
+  }
+  @media(max-width: 360px){
+    #res section{
+        margin: auto 20px;
+    }
+  }
+  @media(max-width: 280px){
+    #res section{
+        margin: 0px;
+        padding: 15px 25px;
+        justify-content: center;
+    }
+    #info{
+        justify-content: center;
+        padding: 0px 2px;
+        margin: 0px;
+      }
+      #res span p{
+        justify-content: center;
+        font-size: 25px;
+        font-weight: bold;
+      }
+  }
